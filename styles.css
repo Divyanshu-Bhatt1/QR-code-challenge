@@ -1,14 +1,11 @@
 body{
-    height:100%;
-    width:100%;
     background-color:hsl(212, 45%, 89%) ;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
 }
 
 .f-container{
-         position:absolute;
-         top:50%;
-         left:50%;
-         transform: translate(-50%,-50%);
          height:500px;
          width:320px;
          display:flex;
